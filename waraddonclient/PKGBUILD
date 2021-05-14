@@ -20,7 +20,7 @@ sha256sums=('SKIP'
 
 package() {
 	cd "$src"
-	install -Dm644 $_pkgname.jar "$pkgdir/opt/$_pkgname/bin/$_pkgname.jar"
+	install -Dm644 $_pkgname.jar "$pkgdir/opt/$_pkgname/$_pkgname.jar"
 	install -Dm644 logo.png "$pkgdir/usr/share/pixmaps/$pkgname.png"
 	install -Dm755 waraddonclient "$pkgdir/usr/bin/waraddonclient"
 	install -Dm755 "$pkgname.desktop" -t "$pkgdir/usr/share/applications"
