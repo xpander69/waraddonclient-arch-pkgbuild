@@ -8,7 +8,7 @@ https://github.com/Idrinth/WARAddonClient
 `cd ./waraddonclient`
 
 `makepkg -si`
-
+ 
 
 # Using it
 
